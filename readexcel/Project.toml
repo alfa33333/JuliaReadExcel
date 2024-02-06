@@ -2,3 +2,7 @@ name = "readexcel"
 uuid = "0c112da7-1fa0-43d1-a4d5-a6fbe42eaeca"
 authors = ["alfa33333 <44150484+alfa33333@users.noreply.github.com>"]
 version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
