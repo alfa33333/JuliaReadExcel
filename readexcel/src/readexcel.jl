@@ -32,11 +32,15 @@ function readfile(filename::String)
     return XLSX.readxlsx("$(filename).xlsx")
 end
 
+# XLSX.openxlsx("./readexcel\\src\\Orden de servicio.xlsx", mode="rw") do xf
+#     sheet = xf[1]
+#     sheet["B2"] = "Test"
+# end
 
-XLSX.openxlsx("tony.xlsx", mode="rw") do xf
-    sheet = xf[1]
-    sheet["B1"] = "new data"
-end
+# XLSX.openxlsx("tony.xlsx", mode="rw") do xf
+#     sheet = xf[1]
+#     sheet["B1"] = "new data"
+# end
 
 function fillexcelfile()
         # prompt to input 
